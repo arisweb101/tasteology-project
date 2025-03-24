@@ -23,27 +23,34 @@
         />
     </head>
     <body>
+        <div id="myModal" class="modal">
+            <div id="modal-overlay"></div>
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImage" src="" alt="Modal Image" />
+            </div>
+        </div>
         <div class="container">
             <section class="cooking-meaning">
                 <div class="cooking-meaning__left">
                     <div class="cooking-meaning__images-left">
                         <img
-                            class="cooking-meaning__image-large lazy"
+                            class="cooking-meaning__image-large modal-image lazy"
                             src="assets/images/boiling-pot.webp"
                             alt="Boiling Pot"
                         />
                     </div>
                     <div class="cooking-meaning__images-right">
                         <img
-                            class="cooking-meaning__image-small lazy"
+                            class="cooking-meaning__image-small modal-image lazy"
                             src="assets/images/grid-experiment.webp"
                             alt="Grid Experiment"
                         />
                         <img
-                            class="cooking-meaning__image-small lazy"
+                            class="cooking-meaning__image-small modal-image lazy"
                             src="assets/images/perfect-eggs.webp"
                             alt="Boiled Eggs"
-                            class=""
+                            class="modal-image"
                         />
                     </div>
                 </div>
@@ -67,7 +74,7 @@
                 <h2 class="taste-colours__title">TASTE THE COLOURS</h2>
                 <ul class="taste-colours__cards">
                     <li class="taste-colours__card">
-                        <a href="#" class="">
+                        <a href="#" class="modal-image">
                             <img
                                 class="taste-colours__image lazy"
                                 src="assets/images/red-colour.webp"
@@ -83,7 +90,7 @@
                         </div>
                     </li>
                     <li class="taste-colours__card">
-                        <a href="#" class="">
+                        <a href="#" class="modal-image">
                             <img
                                 class="taste-colours__image lazy"
                                 src="assets/images/green-colour.webp"
@@ -99,7 +106,7 @@
                         </div>
                     </li>
                     <li class="taste-colours__card">
-                        <a href="#" class="">
+                        <a href="#" class="modal-image">
                             <img
                                 class="taste-colours__image lazy"
                                 src="assets/images/white-colour.webp"
