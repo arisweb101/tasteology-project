@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+    .cooking-meaning {
+        padding: 90px 50px;
+
+        &__left {
+            width: 100%;
+        }
+
+        &__right {
+            padding-top: 30px;
+        }
+
+        &__images-left {
+            width: 50%;
+        }
+
+        &__images-right {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cooking-meaning {
+        padding: 90px 50px;
+
+        &__right {
+            padding-left: 20px;
+        }
+
+        &__title {
+            font-size: clamp(1.8rem, 3vw, 25px);
+        }
+
+        &__text {
+            font-size: clamp(1.2rem, 2vw, 18px);
+        }
+
+        &__highlight {
+            font-size: clamp(1rem, 2vw, 14px);
+        }
+
+        &__tip {
+            font-size: clamp(1.3rem, 2vw, 18px);
+        }
+    }
+
+    .taste-colours {
+        padding: 90px 50px;
+
+        &__cards {
+            flex-direction: column;
+        }
+
+        &__card {
+            width: 100%;
+        }
+
+        &__name {
+            font-size: clamp(1.5rem, 2.5vw, 18px);
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cooking-meaning {
+        padding: 40px 25px;
+    }
+
+    .taste-colours {
+        padding: 40px 25px;
+
+        &__description {
+            padding: 16px;
+        }
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+}
