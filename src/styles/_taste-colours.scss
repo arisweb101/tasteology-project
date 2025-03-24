@@ -1,0 +1,49 @@
+@use 'globals' as *;
+
+.taste-colours {
+    display: block;
+    padding: 120px 147px;
+
+    &__title {
+        @include title;
+    }
+
+    &__cards {
+        display: flex;
+        padding-top: 30px;
+        gap: 10px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 33%;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            @include image-animation;
+        }
+    }
+
+    &__description {
+        padding: 30px;
+        text-align: center;
+    }
+
+    &__name {
+        font-size: clamp(1.2rem, 3vw, 21px);
+        line-height: 30px;
+        margin: 0 0 10px;
+        font-weight: bold;
+    }
+
+    &__text {
+        @include text-content;
+    }
+}
