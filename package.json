@@ -1,0 +1,36 @@
+{
+    "name": "tasteology-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development --open"
+    },
+    "keywords": [],
+    "author": "Aris Espiritu",
+    "license": "ISC",
+    "description": "Tasteology is a web application that focuses on the science of cooking and food colours.",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/arisweb101/tasteology-project.git"
+    },
+    "bugs": {
+        "url": "https://github.com/arisweb101/tasteology-project/issues"
+    },
+    "homepage": "https://github.com/arisweb101/tasteology-project#readme",
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "file-loader": "^6.2.0",
+        "sass-loader": "^16.0.5",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0"
+    },
+    "dependencies": {
+        "babel-loader": "^10.0.0",
+        "copy-webpack-plugin": "^13.0.0",
+        "html-webpack-plugin": "^5.6.3",
+        "sass": "^1.86.0"
+    }
+}
