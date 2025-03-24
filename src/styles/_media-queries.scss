@@ -1,3 +1,27 @@
+@media (min-width: 1401px) {
+    .cooking-meaning {
+        &__text {
+            line-clamp: 15;
+            -webkit-line-clamp: 15;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .cooking-meaning {
+        &__text {
+            line-clamp: 10;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .cooking-meaning {
         padding: 90px 50px;
@@ -16,6 +40,15 @@
 
         &__images-right {
             width: 50%;
+        }
+
+        &__text {
+            overflow: hidden;
+            line-clamp: 15;
+            -webkit-line-clamp: 15;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     }
 }
